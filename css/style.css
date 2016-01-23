@@ -20,9 +20,6 @@ body {
   float: right;
 }
 
-.fixednav a {
-
-}
 
 .title h1 {
 	margin: 0px;
@@ -40,13 +37,13 @@ body {
    padding-top: 1%;
 }
 
-.navbar ul li {
+.fixednav ul li {
     float: right;
     list-style: none;
     padding: 1%;
 }
 
-.navbar a {
+.fixednav a {
    text-decoration: none;
    font-size: 14px; 
 }
