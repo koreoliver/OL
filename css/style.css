@@ -52,6 +52,7 @@ body {
 .slider {
   width: 100%;
 }
+
 .slider img {
   width: 100%; 
 }
@@ -62,6 +63,14 @@ body {
   font-size: 12px;
   margin: 0px;
 }
+
+.contact{
+  width: 100%;
+}
+
+.contact img {
+  width: 100%; 
+}
 /*----------------------------------------------------------------------------- 
 =04 ABOUT SECTION
 -----------------------------------------------------------------------------*/
@@ -69,9 +78,11 @@ body {
   font-size: 12px;
   margin: 0px;
 }
+
 .about {
   width: 100%;
 }
+
 .about img {
   width: 100%; 
 }
