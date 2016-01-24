@@ -31,10 +31,9 @@ body {
 }
 
 .title p {
-   margin: 0px;
-   font-size: 12px; 
+   margin: 5px;
+   font-size: 10px; 
    padding-left: 10%;
-   padding-top: 1%;
 }
 
 .fixednav ul li {
