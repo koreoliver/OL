@@ -1,0 +1,175 @@
+
+/*----------------------------------------------------------------------------- 
+GLOBAL
+-----------------------------------------------------------------------------*/
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+font-family: 'Lato', sans-serif;
+  margin: 0 auto;
+    padding: 0;
+    background: #ffffff;
+    -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+}
+
+img {
+  border:none;
+}
+
+a {
+  color: #222;
+}
+
+h3 {
+  color: #ccc;
+  font-size: 25px;
+}
+
+p { 
+  font-size: 15px; 
+}
+
+ul li a i {
+ transition: all 0.2s ease-in-out;
+}
+
+ul li a i:hover {
+ opacity: .7;
+}
+
+.absolute-center {
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+}
+
+.lead {
+  color: #d0d0d0 !important;
+}
+
+/*----------------------------------------------------------------------------- 
+NAVBAR
+-----------------------------------------------------------------------------*/
+.navbar-header {
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 10000;
+}
+
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper .container {
+  padding-right: 0;
+  padding-left: 0;
+  width: 100%;
+}
+
+.navbar-wrapper .navbar {
+  padding-right: 15px;
+  padding-left: 15px;
+  background-color: rgba(255, 255, 255, .9) !important;
+}
+
+.navbar-wrapper .navbar .container {
+    width: auto;
+    background-color: rgba(255, 255, 255, .9) !important;
+}
+
+.navbar-wrapper .navbar ul li {
+    padding-right: 5px;
+    padding-left: 5px;
+    text-align: right;
+}
+/*----------------------------------------------------------------------------- 
+CAROUSEL SECTION
+-----------------------------------------------------------------------------*/
+.fill {
+  width: 100%; 
+
+}
+.fill img {
+   width: 100%; 
+}
+
+/*-----------------------------------------------------------------------------
+ABOUT SECTION 
+-----------------------------------------------------------------------------*/
+.about {
+  background-color: purple;
+}
+
+/*----------------------------------------------------------------------------- 
+PORTFOLIO SECTION
+-----------------------------------------------------------------------------*/
+.text-muted {
+  color: #ccc;
+}
+
+
+
+/*-----------------------------------------------------------------------------
+FOOTER - Social Media Links
+-----------------------------------------------------------------------------*/
+p.credit { font-size: 11px; color: #7c7c7c; }
+
+
+/*-----------------------------------------------------------------------------
+RESPONSIVE
+-----------------------------------------------------------------------------*/
+@media screen and (min-width: 300px) and (max-width: 991px){
+  .featurette-heading{
+    padding-top: 30px;
+    font-size: 40px;
+  }
+}
+@media (min-width: 768px) {
+  .featurette-heading {
+    font-size: 50px;
+  }
+
+  @media (max-width: 768px) {
+    #slider-text {
+      position: absolute; 
+     top: 75px; 
+     left: 0px; 
+     width: 100%;
+     padding:5px 15px 15px 20px;
+     }
+     .map{
+      width: 275px; 
+      height: 200px;
+    }
+  }
+
+@media (min-width: 992px) {
+  .featurette-heading {
+    margin-top: 30px;}
+  }
+
+@media (min-width: 768px) {
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+  
+  #slider-text {
+    font-size: 18px;
+  }
+
+  
+  #slider  {
+    height: 700px; 
+    
+}
+
+
+
