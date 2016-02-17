@@ -16,6 +16,14 @@ font-family: 'Lato', sans-serif;
       -ms-text-size-adjust: 100%;
 }
 
+.container h3 {
+    font-family: 'Lato', sans-serif;
+}
+
+.container p {
+    font-family: 'Lato', sans-serif;
+}
+
 img {
   border:none;
 }
@@ -66,8 +74,17 @@ ul li img {
 /*----------------------------------------------------------------------------- 
 NAVBAR
 -----------------------------------------------------------------------------*/
+
+.navbar-nav > li > a {
+  padding-top:0px !important; 
+  padding-bottom:0px !important;
+  margin-top: 15px;
+  font-family: 'Lato', sans-serif;
+}
+
 .navbar-header {
   font-family: 'Open Sans Condensed', sans-serif;
+   margin-top: 2px;
 }
 
 .navbar-wrapper {
@@ -126,13 +143,12 @@ PORTFOLIO SECTION
   color: #ccc;
 }
 
-
-
 /*-----------------------------------------------------------------------------
 FOOTER - Social Media Links
 -----------------------------------------------------------------------------*/
-p.credit { font-size: 11px; color: #7c7c7c; }
-
+p.credit { 
+  font-size: 11px; color: #7c7c7c; 
+}
 
 /*-----------------------------------------------------------------------------
 RESPONSIVE
@@ -148,39 +164,31 @@ RESPONSIVE
     font-size: 50px;
   }
 
-  @media (max-width: 768px) {
-    #slider-text {
-      position: absolute; 
-     top: 75px; 
-     left: 0px; 
-     width: 100%;
-     padding:5px 15px 15px 20px;
-     }
-     .map{
-      width: 275px; 
-      height: 200px;
-    }
-  }
+@media (max-width: 768px) {
+  #slider-text {
+  position: absolute; 
+  top: 75px; 
+  left: 0px; 
+  width: 100%;
+  padding:5px 15px 15px 20px;
+}
 
 @media (min-width: 992px) {
   .featurette-heading {
-    margin-top: 30px;}
-  }
+  margin-top: 30px;}
+}
 
 @media (min-width: 768px) {
-
-  .featurette-heading {
+.featurette-heading {
     font-size: 50px;
-  }
+}
   
-  #slider-text {
-    font-size: 18px;
-  }
-
+#slider-text {
+  font-size: 18px;
+}
   
-  #slider  {
-    height: 700px; 
-    
+#slider  {
+  height: 700px;     
 }
 
 
