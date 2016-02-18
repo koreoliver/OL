@@ -1,53 +1,41 @@
-body {
-  margin: 0;
-  padding: 0;
-  overflow-x: hidden;
-  font-family: 'Lato', 'sans-serif';
-
+/*----------------------------------------------------------------------------- 
+CONTACT IMAGE
+-----------------------------------------------------------------------------*/
+.fill {
+  width: 100%; 
+  position:absolute; 
 }
-* {
-    margin: 0;
-    padding: 0;
-  }
+.fill img {
+  width: 100%; 
+  top:0; 
+  left:0; 
+  right:0; 
+  bottom:0; 
+  margin:auto; 
+  min-width:50%;
+  min-height:50%;
+  opacity: 0.9;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
 
-p { 
+
+/*----------------------------------------------------------------------------- 
+CONTACT FORM
+-----------------------------------------------------------------------------*/
+
+.fill p { 
   margin: 0 0 30px 0; 
 }
 
-h1, h4, h5 {
+.fill h1, h4, h5 {
   color: #f8f6f6 !important;
   margin-bottom:1%;
 }
 
-h1{
+.fill h4, h5{
   font-weight: 400;
 }
-
-h4,h5{
-  font-weight: 400;
-}
-
-#imageoverlay {
-      position:fixed; 
-      top:-50%; 
-      left:-50%; 
-      width:200%; 
-      height:200%;
-    }
-
-#imageoverlay img {
-      position:absolute; 
-      top:0; 
-      left:0; 
-      right:0; 
-      bottom:0; 
-      margin:auto; 
-      min-width:50%;
-      min-height:50%;
-      opacity: 0.9;
-      -webkit-filter: grayscale(100%);
-      filter: grayscale(100%);
-    }
 
 
 input, textarea { 
@@ -64,6 +52,10 @@ input, textarea {
 .form label { 
     margin-left: 10px; 
     color: #999999; 
+} 
+
+.form .message { 
+  height: 50px; 
 } 
 
 .submit-button input { 
@@ -84,23 +76,21 @@ input, textarea {
 .submit-button input:hover{
   color: #666;
   background-color: rgb(255, 255, 255);
-
-
 }   
 
-/*end initial ASG form*/   
+.fill { 
+ 
 
-/*begin styling for center text*/
-
-#page-wrap { 
-  position: relative; 
+}
+   position: relative;
   z-index: 2; 
   width: 600px; 
   margin: 50px auto; 
   margin-top: 70px;
   padding: 20px; 
-  background-color: transparent;
+  
   -moz-box-shadow: 0 0 20px black; 
   -webkit-box-shadow: 0 0 20px black; 
   box-shadow: 0 0 20px black; 
-}
+
+
