@@ -12,6 +12,7 @@
 
     <!-- Bootstrap core CSS -->
     <link href="CSS/bootstrap.min.css" rel="stylesheet">
+    <link href="CSS/contact.css" rel="stylesheet">
     <!-- Custom styles for this template -->
     <link rel="stylesheet" href="CSS/main.css"> 
 
@@ -37,6 +38,7 @@
     <script type="text/javascript" src="js/vendor/jquery-1.11.3.js"></script>
     <script type="text/javascript" src="js/vendor/jquery.bsPhotoGallery.js"></script> 
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/contact.js"></script>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
   
     <!-- Image Gallery -->
@@ -71,7 +73,7 @@
                 <li><a data-toggle="collapse" data-target=".navbar-collapse" href=""></a></li>
                 <li><a data-toggle="collapse" data-target=".navbar-collapse" href="index.html#about">About</a></li>
                 <li><a data-toggle="collapse" data-target=".navbar-collapse" href="index.html#portfolio">Portfolio</a></li>
-                <li><a data-toggle="collapse" data-target=".navbar-collapse" href="contact.html" target="_blank">Contact Us</a></li>
+                <li><a data-toggle="collapse" data-target=".navbar-collapse" href="index.html#contact">Contact Us</a></li>
               </ul>
             </div>
           </div>
@@ -79,9 +81,7 @@
       </div>
     </div>
 <!-- START CAROUSEL ORIGINAL-->
-    <!-- <div class="fill">
-     <img src="images/broadway.png" alt="">
-      </div>
+   
   <!-- CAROUSEL NEW--> 
     <div class="banner">
 
@@ -249,7 +249,7 @@
                     </li>
                     <li class="col-md-4 col-md-4 col-md-4">
                         <img class="img-responsive" src="images/tower.jpg">
-                    </li
+                    </li>
 
             <li class="clearfix visible-md-block"></li>
 
@@ -266,9 +266,58 @@
                     </div><!-- /.modal -->
              </div><!-- /.container -->
 
-<!-- End text with Bootstrap styling==================================================-->
+<!-- End text with Bootstrap styling==================================================--
 
-     
+<!-- START CONTACT FORM-->
+ <div class="container">
+      <div class="row featurette" id="contact">
+         <div class="col-md-8">
+            <h2 class="featurette-heading"><span class="text-muted"></span></h2>
+        
+                  </div><!-- /.col-md-8 -->
+                  
+               </div><!-- /.row featurette" id="contact -->
+ <div class="fill">
+   <img src="images/city-view.jpg" alt="">
+      </div>
+
+
+<div id="page-wrap">
+            <div class="contactmain">
+              <h1>Contact Us</h1> 
+                    <p class="name">
+                      <form id="sweetsubmit" action="http://aggregatespace.us4.list-manage.com/subscribe/post" method="POST"> 
+                      <input type="hidden" name="u" value="8315cc5ee73369e1cf22f287c">
+                      <input type="hidden" name="id" value="ae8c1efe8d">
+                    </p>  
+                    <p class="name"> 
+                      <label for="MERGE1"><h4>Name<h4></label> 
+                      <input type="text" name="MERGE1" id="MERGE1" size="25" value="" required/>      
+                    </p> 
+                    <p class="name"> 
+                      <label for="MERGE2"><h4>Message</h4></label> 
+                      <input type="text" name="MERGE2" id="MERGE2" size="25" value="" required/>      
+                    </p> 
+                    <p class="email"> 
+                      <label for="MERGE0"><h4>Email Address</h4></label>
+                      <input type="email" autocapitalize="off" autocorrect="off" name="MERGE0" id="MERGE0" size="25" value="" required/>         
+                    </p>  
+                    </br>
+                    <p class="submit-button"> 
+                      <input type="submit" value="SUBMIT">
+                      <input type="hidden" name="_next" value="//aggregatespacegallery.org/kiosk.html" /> 
+                    </p>    
+                  </form>
+            </div><!-- /.contactmain -->
+       
+        </div><!-- /.pagewrap -->
+   
+</div><!-- /.container -->
+ 
+  <!-- At bottom, 'cause it's not really content -->
+    
+   
+
       <hr class="featurette-divider">
 
 <!-- /END THE FEATURETTES -->
@@ -304,8 +353,16 @@
    });
 })
  </script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"> </script>
-    
 
+ <!-- Contact form Javascript-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="node_modules/sweetalert/dist/sweetalert.min.js"></script> 
+    <script>
+        $(document).ready(function(){
+        $("#sweetsubmit").submit(function(){
+          swal("Almost there! Check your email");
+          });
+        });
+    </script>
   </body>
 </html>
