@@ -1,3 +1,7 @@
+#contact {
+ background-image:url(images/field.jpg);
+}
+
 body {
   overflow-x: hidden;
 }
@@ -32,7 +36,7 @@ body {
   margin:auto; 
   min-width:50%;
   min-height:50%;
-  opacity: 0.9;
+  opacity: 0.1;
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
 }
