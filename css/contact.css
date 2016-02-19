@@ -1,80 +1,85 @@
 body {
-  margin: 0;
-  padding: 0;
   overflow-x: hidden;
-  font-family: 'Lato', 'sans-serif';
 
 }
+
 * {
-    margin: 0;
-    padding: 0;
-  }
+  margin: 0;
+  padding: 0;
+}
 
 p { 
   margin: 0 0 30px 0; 
 }
 
-h1, h4, h5 {
+.contactmain h1, h4, h5 {
   color: #f8f6f6 !important;
   margin-bottom:1%;
 }
 
-h1{
+.contactmain h1{
   font-weight: 400;
+  font-family: 'Lato', sans-serif;
 }
 
-h4,h5{
+.contactmain h4,h5{
   font-weight: 400;
+  font-family: 'Lato', sans-serif;
 }
 
-#imageoverlay {
-      position:fixed; 
-      top:-50%; 
-      left:-50%; 
-      width:200%; 
-      height:200%;
-    }
+.imageoverlay {
+  position:relative; 
+  top:-50%; 
+  left:-50%; 
+  width:200%; 
+  height:200%;
+}
 
-#imageoverlay img {
-      position:absolute; 
-      top:0; 
-      left:0; 
-      right:0; 
-      bottom:0; 
-      margin:auto; 
-      min-width:50%;
-      min-height:50%;
-      opacity: 0.9;
-      -webkit-filter: grayscale(100%);
-      filter: grayscale(100%);
+.imageoverlay img {
+  position:absolute; 
+  top:0; 
+  left:0; 
+  right:0; 
+  bottom:0; 
+  margin:auto; 
+  min-width:50%;
+  min-height:50%;
+  opacity: 0.9;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
     }
 
 
 input, textarea { 
-    padding: 4px; 
-    border: solid 1px #E5E5E5; 
-    outline: 0; 
-    width: 92%; 
-    max-width: 92%;  
-    background: #f8f6f6;
-    border-radius: 2px;
-    line-height: 225%; 
+  padding: 4px; 
+  border: solid 1px #E5E5E5; 
+  outline: 0; 
+  width: 92%; 
+  max-width: 92%;  
+  background: #f8f6f6;
+  border-radius: 2px;
+  line-height: 225%; 
 } 
+
+#MERGE2 {
+  line-height: 750%; 
+}
+
    
 .form label { 
-    margin-left: 10px; 
-    color: #999999; 
+  margin-left: 10px; 
+  color: #999999; 
 } 
 
 .submit-button input { 
-    width: auto;
-    padding: 6px 26px;
-    border: 15px;
-    border: #f8f6f6;
-    font-size: 15px;
-    color:#f8f6f6;
-    border: solid 1.5px #f8f6f6; 
-    background-color: transparent;
+  width: auto;
+  padding: 6px 26px;
+  border: 15px;
+  border: #f8f6f6;
+  font-size: 15px;
+  color:#f8f6f6;
+  border: solid 1.5px #f8f6f6; 
+  background-color: transparent;
 }
 
 .submit-button p {
@@ -84,23 +89,27 @@ input, textarea {
 .submit-button input:hover{
   color: #666;
   background-color: rgb(255, 255, 255);
+} 
 
 
-}   
-
-/*end initial ASG form*/   
-
-/*begin styling for center text*/
+/*center text*/
 
 #page-wrap { 
   position: relative; 
   z-index: 2; 
-  width: 600px; 
+  width: 70%; 
   margin: 50px auto; 
-  margin-top: 70px;
+  margin-top: 10%;
   padding: 20px; 
   background-color: transparent;
   -moz-box-shadow: 0 0 20px black; 
   -webkit-box-shadow: 0 0 20px black; 
   box-shadow: 0 0 20px black; 
+}
+
+@media screen and (max-width: 1024px) { /* Specific to this particular image */
+  img.bg {
+    left: 50%;
+    margin-left: -512px;   /* 50% */
+  }
 }

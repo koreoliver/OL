@@ -65,7 +65,7 @@ ul {
 }
 ul li {
   list-style:none;
-  margin-bottom:25px;
+  margin-bottom: 0px;
 }
 ul li img {
   cursor: pointer;
@@ -77,12 +77,14 @@ NAVBAR
 
 .navbar-brand {
   font-size: 23px !important;
+  font-family: 'Open Sans Condensed', sans-serif!important;
+}
 }
 
 .navbar-nav > li > a {
   padding-top:0px !important; 
   padding-bottom:0px !important;
-  margin-top: 17px;
+  margin-top: 15px;
   font-family: 'Lato', sans-serif;
 }
 
