@@ -20,6 +20,7 @@ body {
   left:-50%; 
   width:200%; 
   height:200%;
+
 }
 
 .imageoverlay img {
@@ -34,7 +35,7 @@ body {
   opacity: 0.9;
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
-    }
+}
 
 input, textarea { 
   padding: 4px; 
