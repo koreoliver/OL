@@ -27,7 +27,6 @@ IMAGE
   left:-50%; 
   width:200%; 
   height:200%;
-
 }
 
 .imageoverlay img {
@@ -39,7 +38,7 @@ IMAGE
   margin:auto; 
   min-width:50%;
   min-height:50%;
-  opacity: 0.1;
+  opacity: 0.9;
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
 }
