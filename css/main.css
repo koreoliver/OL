@@ -79,13 +79,12 @@ NAVBAR
   font-size: 23px !important;
   font-family: 'Open Sans Condensed', sans-serif!important;
 }
-}
 
 .navbar-nav > li > a {
   padding-top:0px !important; 
   padding-bottom:0px !important;
   margin-top: 15px;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Lato', sans-serif!important;
 }
 
 .navbar-header {
@@ -135,8 +134,6 @@ PORTFOLIO SECTION
 .text-muted {
   color: #ccc;
 }
-
-.text
 
 /*-----------------------------------------------------------------------------
 FOOTER - Social Media Links
