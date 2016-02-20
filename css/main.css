@@ -76,7 +76,7 @@ NAVBAR
 -----------------------------------------------------------------------------*/
 
 .navbar-brand {
-  font-size: 23px !important;
+  font-size: 28px !important;
   font-family: 'Open Sans Condensed', sans-serif!important;
 }
 
@@ -85,10 +85,6 @@ NAVBAR
   padding-bottom:0px !important;
   margin-top: 15px;
   font-family: 'Lato', sans-serif!important;
-}
-
-.navbar-header {
-  font-family: 'Open Sans Condensed', sans-serif;
 }
 
 .navbar-wrapper {
