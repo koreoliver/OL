@@ -15,8 +15,6 @@
     <link href="CSS/contact.css" rel="stylesheet">
     <!-- Custom styles for this template -->
     <link rel="stylesheet" href="CSS/main.css"> 
-    <!-- lightbox Gallery -->
-    <link rel="stylesheet" href="css/blueimp-gallery.min.css"> 
 
      <!-- Fonts-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
@@ -322,38 +320,6 @@
         
     </br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br>
 
-<!-- START LIGHTBOX GALLERY -->
-
- <div class="container">
-      <div class="row featurette" id="PORTFOLIO2">
-         <div class="col-md-12">
-            <h2 class="featurette-heading"><span class="text-muted"></span></h2>        
-                  </div><!-- /.col-md-12 -->  
-               </div><!-- /.row featurette" id="contact -->
-
-
-</div><!-- /.container -->
-<div id="links">
-    <a href="images/banana.jpg" title="Banana">
-        <img src="images/thumbnails/banana.jpg" alt="Banana">
-    </a>
-    <a href="images/apple.jpg" title="Apple">
-        <img src="images/thumbnails/apple.jpg" alt="Apple">
-    </a>
-    <a href="images/orange.jpg" title="Orange">
-        <img src="images/thumbnails/orange.jpg" alt="Orange">
-    </a>
-</div>
-
-<div id="blueimp-gallery" class="blueimp-gallery">
-    <div class="slides"></div>
-    <h3 class="title"></h3>
-    <a class="prev">‹</a>
-    <a class="next">›</a>
-    <a class="close">×</a>
-    <a class="play-pause"></a>
-    <ol class="indicator"></ol>
-</div> 
 
  <!-- START FOOTER -->
   <div class="container">
@@ -370,33 +336,7 @@
 
 
 
-<!-- Bootstrap core JavaScript
-================================================== -->
-<!-- Placed at the end of the document so the pages load faster -->
-
- <!-- BLUEIMP Gallery -->
- <script>
-document.getElementById('links').onclick = function (event) {
-    event = event || window.event;
-    var target = event.target || event.srcElement,
-        link = target.src ? target.parentNode : target,
-        options = {index: link, event: event},
-        links = this.getElementsByTagName('a');
-    blueimp.Gallery(links, options);
-};
-</script>
-
-<div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls">
-    <div class="slides"></div>
-    <h3 class="title"></h3>
-    <a class="prev">‹</a>
-    <a class="next">›</a>
-    <a class="close">×</a>
-    <a class="play-pause"></a>
-    <ol class="indicator"></ol>
-</div>
-
-
+ <!-- Portfolio Gallery-->
 <script>
     $(document).ready(function(){
    $('li img').on('click',function(){
@@ -423,7 +363,8 @@ document.getElementById('links').onclick = function (event) {
           });
         });
     </script>
- <!-- Lightbox-->
-    <script src="js/blueimp-gallery.min.js"></script> 
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
   </body>
 </html>
