@@ -34,21 +34,16 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <script type="text/javascript" src="js/vendor/jquery-1.11.3.js"></script>
-    <script type="text/javascript" src="js/jquery.bsPhotoGallery.js"></script> 
+    <script type="text/javascript" src="js/jquery-1.12.1.js"></script>
+    <script src="js/jquery.bsPhotoGallery.js"></script> 
   
     <!-- Image Gallery -->
-      <script>
-      $(document).ready(function(){
-        $('ul.first').bsPhotoGallery({
-          "classes" : "col-lg-2 col-md-4 col-sm-3 col-xs-4 col-xxs-12",
-          "hasModal" : true
-        });
-      });
-    </script>
+    
+
   </head>
 
 <!-- START NAVBAR-->
+
   <body>
     <div class="navbar-wrapper">
       <div class="container">
@@ -266,41 +261,48 @@
                         </div><!-- /.modal-content -->
                       </div><!-- /.modal-dialog -->
                     </div><!-- /.modal -->
-             </div><!-- /.container -->
+
+</div><!-- /.container -->
 
 <!-- End text with Bootstrap styling==================================================
 
 <!-START CONTACT FORM-->
+
  <div class="container">
       <div class="row featurette" id="contact">
          <div class="col-md-12">
             <h2 class="featurette-heading"><span class="text-muted"></span></h2>        
                   </div><!-- /.col-md-12 -->  
                </div><!-- /.row featurette" id="contact -->
-            <div class="imageoverlay">
-           <img src="images/city-view-contact.jpg" alt="">
-              </div>
+
+              </div><!-- /.container --> 
+
+
+
+ <div class="col-md-12" id="contact-form"> 
+
+ <img src="images/city-view-contact.jpg" class="img-responsive">   
 
             <div class="page-wrap">
-               
+
             <div class="contactmain">
 
               <h1>Contact</h1> 
-                    <p class="name">
-                      <form id="sweetsubmit" action="http://oliverlandscapes.us4.list-manage.com/subscribe/post" method="POST"> 
+                       <form action="//formspree.io/berytoliver@email.com" method="POST"> 
                       <input type="hidden" name="u" value="8315cc5ee73369e1cf22f287c">
                       <input type="hidden" name="id" value="ae8c1efe8d">
-                    </p>  
+   
                     <p class="name"> 
-                      <label for="MERGE1"><h4>Name<h4></label> 
-                      <input type="text" name="MERGE1" id="MERGE1" size="25" value="" required/>      
-                    </p> 
-                     <p class="email"> 
+                      <label for="MERGE0"><h4>Name</h4></label>
+                      <input type="name" autocapitalize="off" autocorrect="off" name="MERGE0" id="MERGE0" size="25" value="" required/>      
+                    </p>                      
+                    <p class="email"> 
                       <label for="MERGE0"><h4>Email Address</h4></label>
                       <input type="email" autocapitalize="off" autocorrect="off" name="MERGE0" id="MERGE0" size="25" value="" required/>      
+                    </p> 
                     <p class="message"> 
                       <label for="MERGE2"><h4>Message</h4></label> 
-                      <input type="text" name="MERGE2" id="MERGE2" size="25" value="" required/>      
+                      <input type="text" name="Message" id="MERGE2" size="200" value="" required/>      
                     </p> 
                     </br>
                     <p class="submit-button"> 
@@ -308,13 +310,11 @@
                       <input type="hidden" name="_next" value="//oliverlandscapes.com/index.html" /> 
                     </p> 
                   </form>
-            </div><!-- /.contactmain -->
-                </div><!-- /.page-wrap -->
-                      </div><!-- /.container -->
+                    </div><!-- /.contactmain -->
+                       </div><!-- /.page-wrap -->
         
-    </br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br>
-
-
+   </div><!-- /.contact-form -->
+        
  <!-- START FOOTER -->
   <div class="container">
        <footer>
@@ -332,7 +332,7 @@
 
  <!-- Portfolio Gallery-->
 <script>
-    $(document).ready(function(){
+  $(document).ready(function(){
    $('li img').on('click',function(){
         var src = $(this).attr('src');
         var img = '<img src="' + src + '" class="img-responsive"/>';
@@ -363,6 +363,7 @@
  <!-- Javascript and JQuery Links --> 
    
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/holder.min.js"></script>
     <script src="js/bootstrap.js"></script>
     <script src="js/contact.js"></script>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">

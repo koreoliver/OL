@@ -20,7 +20,39 @@ body {
 /*----------------------------------------------------------------------------- 
 IMAGE
 -----------------------------------------------------------------------------*/
-.imageoverlay {
+#contact-form img {
+  position:absolute;   
+  width: 100%;
+  height: 100%;
+  opacity: 0.9;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.page-wrap { 
+  position: relative; 
+  z-index: 2; 
+  width: 70%; 
+  margin-right: 15%;
+  margin-left:15%;
+  margin-top: 10%;
+  padding: 5%; 
+  background-color: transparent;
+  -moz-box-shadow: 0 0 20px black; 
+  -webkit-box-shadow: 0 0 20px black; 
+  box-shadow: 0 0 20px black; 
+}
+
+/*.imageoverlay {
+  position:relative; 
+  top:-50%; 
+  left:-50%; 
+  width:200%; 
+  height:200%;
+}
+
+
+/*.imageoverlay {
   position:relative; 
   top:-50%; 
   left:-50%; 
@@ -46,6 +78,10 @@ IMAGE
 CONTACT FORM AND PAGE WRAP
 -----------------------------------------------------------------------------*/
 
+.contactmain h1 {
+  font-weight: bolder;
+}
+
 input, textarea { 
   padding: 4px; 
   border: solid 1px #E5E5E5; 
@@ -58,8 +94,9 @@ input, textarea {
 } 
 
 #MERGE2 {
-  line-height: 800%; 
+  line-height: 200px;
 }
+
 
 .form label { 
   color: #999999; 
@@ -85,22 +122,8 @@ input, textarea {
   background-color: rgb(255, 255, 255);
 } 
 
-
 /*center text*/
 
-.page-wrap { 
-  position: relative; 
-  z-index: 2; 
-  width: 70%; 
-  margin-right: 15%;
-  margin-left:15%;
-  margin-top: 10%;
-  padding: 5%; 
-  background-color: transparent;
-  -moz-box-shadow: 0 0 20px black; 
-  -webkit-box-shadow: 0 0 20px black; 
-  box-shadow: 0 0 20px black; 
-}
 
 @media screen and (max-width: 1024px) { /* Specific to this particular image */
   img.bg {
