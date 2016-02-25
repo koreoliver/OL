@@ -36,19 +36,19 @@
 
       }
       function showHideControls(){
-    		var total = $(getCurrentUl()+' li[data-bsp-li-index]').length;
+        var total = $(getCurrentUl()+' li[data-bsp-li-index]').length;
 
-    		if(total === clicked.nextImg){
-    			$('a.next').hide();
-    		}else{
-    			$('a.next').show()
-    		}
-    		if(clicked.prevImg === -1){
-    			$('a.previous').hide();
-    		}else{
-    			$('a.previous').show()
-    		}
-    	}
+        if(total === clicked.nextImg){
+          $('a.next').hide();
+        }else{
+          $('a.next').show()
+        }
+        if(clicked.prevImg === -1){
+          $('a.previous').hide();
+        }else{
+          $('a.previous').show()
+        }
+      }
       function showModal(){
 
           var src = $(this).find('img').attr('src');
@@ -62,7 +62,7 @@
 
           clicked.img = src;
           clicked.prevImg = parseInt(index) - parseInt(1);
-      		clicked.nextImg = parseInt(index) + parseInt(1);
+          clicked.nextImg = parseInt(index) + parseInt(1);
           clicked.ulIndex = ulIndex;
           clicked.ulId = ulId;
 
@@ -264,7 +264,7 @@
   };
   /*defaults*/
   $.fn.bsPhotoGallery.defaults = {
-    'classes' : 'col-lg-2 col-md-2 col-sm-3 col-xs-4 col-md-4',
+    'classes' : 'col-lg-2 col-md-2 col-sm-3 col-xs-4',
     'hasModal' : true
   }
 
