@@ -17,24 +17,17 @@
     <link href="CSS/contact.css" rel="stylesheet">
     <!-- Custom styles for this template -->
     <link rel="stylesheet" href="CSS/main.css">
-
-
-    <!-- Photogallery styles -->
+    
+    <!-- photogallery styles -->
     <link rel="stylesheet" href="CSS/photogallery.css">
-
-    <!-- blueimpgallery styles -->
-    <link rel="stylesheet" href="css/bootstrap-image-gallery.min.css">
-    <link rel="stylesheet" href="css/blueimp-gallery.min.css">
-    <link rel="stylesheet" href="css/blueimp-gallery-indicator.css">
-
+     
      <!-- Fonts-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link href='http://fonts.googleapis.com/css?family=Lato:100' rel='stylesheet' type='text/css'> 
     <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200italic' rel='stylesheet' type='text/css'>
     
-<!--This following link causes any changes to bootstrap.min.css to be overwritten! -->
-    
+    <!--This following link causes any changes to bootstrap.min.css to be overwritten! -->
      <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
     
@@ -46,8 +39,6 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
     <script type="text/javascript" src="js/jquery-1.12.1.js"></script>
-  
-    <!-- Image Gallery -->
 
   </head>
 
@@ -80,8 +71,8 @@
         </nav>
       </div>
     </div>
-<!-- START CAROUSEL -->
 
+<!-- START CAROUSEL -->
     <div class="banner">
 
       <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
@@ -92,7 +83,7 @@
           <li data-target="#carousel-example-generic" data-slide-to="2"></li>
         </ol>
 
-        <!-- Wrapper for slides -->
+<!-- Wrapper for slides -->
         <div class="carousel-inner">
           <div class="item active">
             <img src="images/broadway.png" alt="Oliver Landscapes">
@@ -111,7 +102,7 @@
           </div>
         </div><!-- .carousel-inner --> 
 
-        <!-- Controls -->
+<!-- Controls -->
         <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
           <span class="glyphicon glyphicon-chevron-left"></span>
         </a>
@@ -120,10 +111,9 @@
         </a>
       </div><!-- .carousel --> 
     </div><!-- .banner --> 
-  
-             
+          
 <!-- START THE ABOUT SECTION-->      
-    
+     
     <div class="container">
       <div class="row featurette" id="about">
          <div class="col-md-8">
@@ -177,12 +167,12 @@
     </div>
                
       </div><!-- /.container -->
+        <br/>
         
-
 <!--END ABOUT-->
 
 <!-- START PORTFOLIO-->
-<!-- Text with Bootstrap styling==================================================-->
+
   <div class="container">
       <div class="row featurette" id="portfolio">
          <div class="col-md-12">
@@ -190,60 +180,83 @@
             
                   </div><!-- /.col-md-8 -->
                </div><!-- /.row featurette" id="portfolio -->
+
 <!-- START IMAGES-->
         <br/>
         <h3>Portfolio</h3>
+               <ul class="row">
 
-<!-- The Bootstrap Image Gallery lightbox IMAGES -->
+                    <li class="col-md-4 col-md-4 col-md-4">
+                        <img class="img-responsive" src="images/field.jpg">
+                    </li>
+                     <li class="col-md-4 col-md-4 col-md-4">
+                        <img class="img-responsive" src="images/entry.jpg">
+                    </li>
+                     <li class="col-md-4 col-md-4 col-md-4">
+                        <img class="img-responsive" src="images/ross-garden.jpg">
+                    </li>
 
-<div id="links">
-    <a href="images/pink-flowers.jpg" title="Banana" data-gallery>
-        <img class="img-responsive" src="images/pink-flowers.jpg" alt="Banana">
-    </a>
-    <a href="images/ross-path.jpg" title="Apple" data-gallery>
-        <img class="img-responsive" src="images/ross-path.jpg" alt="Apple">
-    </a>
-    <a href="images/alcatraz.jpg" title="Orange" data-gallery>
-        <img class="img-responsive" src="images/alcatraz.jpg" alt="Orange">
-    </a>
-</div>
+            <li class="clearfix visible-md-block"></li>
 
+                      <li class="col-md-4 col-md-4 col-md-4">
+                        <img class="img-responsive" src="images/scott-front-bergenia.jpg">
+                    </li>
+                     <li class="col-md-4 col-md-4 col-md-4">
+                        <img class="img-responsive" src="images/scott-front-night.jpg">
+                    </li>
+                    <li class="col-md-4 col-md-4 col-md-4">
+                        <img class="img-responsive" src="images/scott-front-day.jpg">
+                    </li>
 
-<!-- The Bootstrap Image Gallery lightbox, should be a child element of the document body -->
-<div id="blueimp-gallery" class="blueimp-gallery" data-use-bootstrap-modal="false">
-    <!-- The container for the modal slides -->
-    <div class="slides"></div>
-    <!-- Controls for the borderless lightbox -->
-    <h3 class="title"></h3>
-    <a class="prev">‹</a>
-    <a class="next">›</a>
-    <a class="close">×</a>
-    <a class="play-pause"></a>
-    <ol class="indicator"></ol>
-    <!-- The modal dialog, which will be used to wrap the lightbox content -->
-    <div class="modal fade">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" aria-hidden="true">&times;</button>
-                    <h4 class="modal-title"></h4>
-                </div>
-                <div class="modal-body next"></div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default pull-left prev">
-                        <i class="glyphicon glyphicon-chevron-left"></i>
-                        Previous
-                    </button>
-                    <button type="button" class="btn btn-primary next">
-                        Next
-                        <i class="glyphicon glyphicon-chevron-right"></i>
-                    </button>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+            <li class="clearfix visible-md-block"></li>
 
+                  <li class="col-md-4 col-md-4 col-md-4">
+                        <img class="img-responsive" src="images/fern-wall.jpg">
+                    </li>
+                     <li class="col-md-4 col-md-4 col-md-4">
+                        <img class="img-responsive" src="images/scott-exterior-night.jpg">
+                    </li>
+                    <li class="col-md-4 col-md-4 col-md-4">
+                        <img class="img-responsive" src="images/stairs.jpg">
+                    </li>
+                   
+            <li class="clearfix visible-md-block"></li>
+
+                     <li class="col-md-4 col-md-4 col-md-4">
+                        <img class="img-responsive" src="images/pink-flowers.jpg">
+                    </li>
+                     <li class="col-md-4 col-md-4 col-md-4">
+                        <img class="img-responsive" src="images/ross-path.jpg">
+                    </li>
+                    <li class="col-md-4 col-md-4 col-md-4">
+                        <img class="img-responsive" src="images/alcatraz.jpg">
+                    </li>
+
+            <li class="clearfix visible-md-block"></li>
+
+                      <li class="col-md-4 col-md-4 col-md-4">
+                        <img class="img-responsive" src="images/maple-walk.jpg">
+                    </li>
+                     <li class="col-md-4 col-md-4 col-md-4">
+                        <img class="img-responsive" src="images/city-view.png">
+                    </li>
+                    <li class="col-md-4 col-md-4 col-md-4">
+                        <img class="img-responsive" src="images/tower.jpg">
+                    </li>
+
+            <li class="clearfix visible-md-block"></li>
+
+                </ul>
+
+<!-- START MODAL PHOTO GALLERY-->
+                <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                  <div class="modal-content">
+                 <div class="modal-body">
+                 </div>
+                        </div><!-- /.modal-content -->
+                      </div><!-- /.modal-dialog -->
+                    </div><!-- /.modal -->
 
 <!-- The blueimp Gallery as lightbox dialog, should be a child element of the document body -->
 <!-- <div id="blueimp-gallery" class="blueimp-gallery">
@@ -255,22 +268,10 @@
     <a class="play-pause"></a>
     <ul class="indicator"></ul>
 </div>-->
-<script>
-document.getElementById('links').onclick = function (event) {
-    event = event || window.event;
-    var target = event.target || event.srcElement,
-        link = target.src ? target.parentNode : target,
-        options = {index: link, event: event},
-        links = this.getElementsByTagName('a');
-    blueimp.Gallery(links, options);
-};
-</script>
 
 </div><!-- /.container -->
 
-<!-- End text with Bootstrap styling==================================================
-
-<!-START CONTACT FORM-->
+<!-- START CONTACT FORM-->
 
  <div class="container">
       <div class="row featurette" id="contact">
@@ -280,7 +281,6 @@ document.getElementById('links').onclick = function (event) {
                </div><!-- /.row featurette" id="contact -->
 
               </div><!-- /.container --> 
-
 
 
  <div class="col-md-12" id="contact-form"> 
@@ -306,7 +306,6 @@ document.getElementById('links').onclick = function (event) {
                     </p> 
                     <p class="message"> 
                       <label for="MERGE2"><h4>Message</h4></label> 
-                      
                       <TEXTAREA NAME="Message" ROWS=4 COLS=30 value="" required>
                       </TEXTAREA> 
 
@@ -335,8 +334,6 @@ document.getElementById('links').onclick = function (event) {
          <hr class="featurette-divider">
 </div><!-- /.container -->
 <!-- /END THE FEATURETTES -->
-
-
 
  <!-- Portfolio Gallery-->
 <script>
@@ -368,19 +365,15 @@ document.getElementById('links').onclick = function (event) {
 <!-- Bootstrap core JavaScript
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
- <!-- Blueimp gallery links -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="js/bootstrap-image-gallery.min.js"></script>
-     <script src="js/blueimp-gallery-fullscreen.js"></script>
-    <script src="js/blueimp-gallery-indicator.js"></script>
-    <script src="js/blueimp-helper.js"></script>
-
+ <!-- Javascript and JQuery Links -->
  <!-- photogallery javascript -->
     <script src="js/photogallery.js"></script> 
-<!-- Javascript and JQuery Links -->   
+
+<!-- blueimp gallery javascript --> 
     <script src="js/bootstrap.min.js"></script>
     <script src="js/holder.min.js"></script>
     <script src="js/bootstrap.js"></script>
+    
     <script src="js/contact.js"></script>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
   </body>
