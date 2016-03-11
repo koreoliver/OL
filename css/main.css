@@ -148,8 +148,6 @@ CENTER MODAL
   border-radius: 0;
 }
 
-.modal {
-}
 .vertical-alignment-helper {
     display:table;
     height: 100%;
@@ -171,9 +169,13 @@ CENTER MODAL
 FOOTER - Social Media Links
 -----------------------------------------------------------------------------*/
 p.credit { 
-  font-size: 11px; color: #7c7c7c; 
+  font-size: 11px; color: #7c7c7c;
+  width:50%; 
 }
 
+.pull-right {
+  font-size: 11px;
+}
 
 /*-----------------------------------------------------------------------------
 RESPONSIVE
@@ -215,6 +217,5 @@ RESPONSIVE
 #slider  {
   height: 700px;     
 }
-
 
 

@@ -17,7 +17,7 @@ body {
 }
 
 /*----------------------------------------------------------------------------- 
-IMAGE
+CONTACT FORM IMAGE
 -----------------------------------------------------------------------------*/
 #contact-form img {
   position:absolute;   
@@ -40,37 +40,6 @@ IMAGE
   -moz-box-shadow: 0 0 20px black; 
   -webkit-box-shadow: 0 0 20px black; 
   box-shadow: 0 0 20px black; 
-}
-
-/*.imageoverlay {
-  position:relative; 
-  top:-50%; 
-  left:-50%; 
-  width:200%; 
-  height:200%;
-}
-
-
-/*.imageoverlay {
-  position:relative; 
-  top:-50%; 
-  left:-50%; 
-  width:200%; 
-  height:200%;
-}
-
-.imageoverlay img {
-  position:absolute; 
-  top:0; 
-  left:0; 
-  right:0; 
-  bottom:0; 
-  margin:auto; 
-  min-width:50%;
-  min-height:50%;
-  opacity: 0.9;
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
 }
 
 /*----------------------------------------------------------------------------- 
@@ -121,7 +90,6 @@ input, textarea {
 } 
 
 /*center text*/
-
 
 @media screen and (max-width: 1024px) { /* Specific to this particular image */
   img.bg {
