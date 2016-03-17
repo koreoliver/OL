@@ -78,6 +78,7 @@ NAVBAR
 .navbar-brand {
   font-size: 28px !important;
   font-family: 'Open Sans Condensed', sans-serif!important;
+   font:green!important;
 }
 
 .navbar-nav > li > a {
@@ -85,6 +86,7 @@ NAVBAR
   padding-bottom:0px !important;
   margin-top: 15px;
   font-family: 'Lato', sans-serif!important;
+
 }
 
 .navbar-wrapper {

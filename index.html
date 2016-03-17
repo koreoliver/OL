@@ -18,10 +18,10 @@
     <link href="css/contact.css" rel="stylesheet">
 
     <!-- Custom styles -->
-    <link rel="stylesheet" href="CSS/main.css">
+    <link rel="stylesheet" href="css/main.css">
 
     <!-- Photogallery styles -->
-    <link rel="stylesheet" href="CSS/photogallery.css">
+    <link rel="stylesheet" href="css/photogallery.css">
 
     <!-- Blueimpgallery styles -->
     <link rel="stylesheet" href="css/bootstrap-image-gallery.min.css">
@@ -117,7 +117,7 @@
            <h2 class="featurette-heading"><span class="text-muted-about"></span></h2>         
             </div><!-- /.col-md-8 -->
             </div><!-- /.row featurette -->
-            <br/><br/>
+            <br/>
             <h3>About</h3>
             <br/>
             <div class="row">
@@ -174,7 +174,7 @@
             <h2 class="featurette-heading"><span class="text-muted"></span></h2>         
                   </div><!-- /.col-md-8 -->
                </div><!-- /.row featurette" id="portfolio -->
-        <br/><br/>
+        <br/>
         <h3>Portfolio</h3>
         <br/>
 <!-- START PORTFOLIO IMAGES-->
@@ -354,22 +354,36 @@ document.getElementById('links').onclick = function (event) {
                     <p class="email"> 
                       <label for="MERGE0"><h4>Email Address</h4></label>
                       <input type="email" autocapitalize="off" autocorrect="off" name="" id="" size="25" value="" required/>      
+                    <form id="sweetsubmit" action="https://formspree.io/kore.oliver@gmail.com" method="POST">        
+                    <p class="name"> 
+                      <label for="name"><h4>Name</h4></label>
+                      <input type="name" autocapitalize="off" autocorrect="off" size="25" value="" required/>      
+                    </p>                      
+                    <p class="email"> 
+                      <label for="EMAIL"><h4>Email Address</h4></label>
+                      <input type="email" autocapitalize="off" autocorrect="off" name="email" id="email" size="25" value="" required/>      
                     </p> 
                     <p class="message"> 
-                      <label for="MERGE2"><h4>Message</h4></label>             
+                      <label for="MESSAGE"><h4>Message</h4></label>             
                       <TEXTAREA NAME="Message" ROWS=4 COLS=30 value="" required>
-                      </TEXTAREA> 
+                      </TEXTAREA>
+                      <input type="text" name="_gotcha" style="display:none">
                     </p> 
                     </br>
                     <p class="submit-button"> 
                       <input type="submit" value="SUBMIT">
-                      <input type="hidden" name="_next" value="//oliverlandscapes.com/index.html" /> 
+                      <input type="hidden" name="_next" value="http://aggregatespace.com/redux/index.html" /> 
                     </p> 
                       </form>
+
+ 
                          </div><!-- /.contactmain -->
                           </div><!-- /.page-wrap -->
-        
+      
               </div><!-- /.contact-form -->
+
+ <!-- Contact Form Javascript-->
+ 
 
 <!-- /END THE FEATURETTES -->
 <hr class="featurette-divider">
@@ -377,22 +391,21 @@ document.getElementById('links').onclick = function (event) {
  <!-- START FOOTER -->
   <div class="container">
        <footer>
-        <p class="credit">&copy Kore Oliver 2016</p>
+        <p class="credit">&copy Oliver Landscapes 2016</p>
         <p class="pull-right"><a href="#">Back to top</a></p>
             </footer>
 
 </div><!-- /.container -->
-
- <!-- Contact Form Javascript-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-    <script src="node_modules/sweetalert/dist/sweetalert.min.js"></script> 
-    <script>
-        $(document).ready(function(){
-        $("#sweetsubmit").submit(function(){
-          swal("Please check your email");
-          });
-        });
-      </script>
+           <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+           <script src="node_modules/sweetalert/dist/sweetalert.min.js"></script> 
+           
+            <script>
+              $(document).ready(function(){
+              $("#sweetsubmit").submit(function(){
+                swal("Thanks! You're all set!");
+                });
+              });
+            </script>
 
 <!-- Blueimp gallery links -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
