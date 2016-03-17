@@ -344,17 +344,8 @@ document.getElementById('links').onclick = function (event) {
 
               <h1>Contact</h1> 
                       
-                    <form action="https://formspree.io/berytoliver@email.com" method="POST"> 
-                      <input type="hidden" name="" value="">
+                    <form id="sweetsubmit" action="https://formspree.io/berytoliver@gmail.com" method="POST">        
                     
-                    <p class="name"> 
-                      <label for="MERGE0"><h4>Name</h4></label>
-                      <input type="name" autocapitalize="off" autocorrect="off" name="" id="" size="25" value="" required/>      
-                    </p>                      
-                    <p class="email"> 
-                      <label for="MERGE0"><h4>Email Address</h4></label>
-                      <input type="email" autocapitalize="off" autocorrect="off" name="" id="" size="25" value="" required/>      
-                    <form id="sweetsubmit" action="https://formspree.io/kore.oliver@gmail.com" method="POST">        
                     <p class="name"> 
                       <label for="name"><h4>Name</h4></label>
                       <input type="name" autocapitalize="off" autocorrect="off" size="25" value="" required/>      
@@ -382,8 +373,7 @@ document.getElementById('links').onclick = function (event) {
       
               </div><!-- /.contact-form -->
 
- <!-- Contact Form Javascript-->
- 
+
 
 <!-- /END THE FEATURETTES -->
 <hr class="featurette-divider">
@@ -396,13 +386,16 @@ document.getElementById('links').onclick = function (event) {
             </footer>
 
 </div><!-- /.container -->
+
+ <!-- Contact Form Javascript-->
+
            <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
            <script src="node_modules/sweetalert/dist/sweetalert.min.js"></script> 
            
             <script>
               $(document).ready(function(){
               $("#sweetsubmit").submit(function(){
-                swal("Thanks! You're all set!");
+                swal("Thanks! We'll be in touch shortly!");
                 });
               });
             </script>
