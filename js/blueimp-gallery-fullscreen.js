@@ -22,7 +22,7 @@
     } else {
         // Browser globals:
         factory(
-            window.blueimp.helper || window.jQuery,
+            window.blueimp.helper  ||  window.jQuery,
             window.blueimp.Gallery
         );
     }
