@@ -78,6 +78,7 @@ input, textarea {
   color:#f8f6f6;
   border: solid 1.5px #f8f6f6; 
   background-color: transparent;
+  font-family: 'Lato', sans-serif;
 }
 
 .submit-button p {
