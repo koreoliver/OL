@@ -29,7 +29,10 @@
     <link rel="stylesheet" href="css/blueimp-gallery.css">
     <link rel="stylesheet" href="css/blueimp-gallery-indicator.css">
 
-     <!-- Fonts-->
+    <!-- Sweetsubmit styles -->
+     <link rel="stylesheet" type="text/css" href="node_modules/sweetalert/dist/sweetalert.css">
+     
+    <!-- Fonts-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link href='http://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'> 
     <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
@@ -181,13 +184,24 @@
   <ul class="row">
                 <li class="col-md-4 col-md-4 col-md-4">
                   <a class="img-responsive" href="images/field.jpg" data-gallery>
+                <!--<li class="col-md-4 col-md-4 col-md-4">
+                  <a href="images/field.jpg" data-gallery>
                   <img class="img-responsive" src="images/thumbnails/thumb-2-0.jpg" alt="Oliver Landscapes">
                   </a>
 
-                <!--<li class="col-md-4 col-md-4 col-md-4">
+                  <li class="col-md-4 col-md-4 col-md-4">
+                  <a href="images/entry.jpg" data-gallery>
+                 <img class="img-responsive" src="images/thumbnails/thumb-2-0.jpg" alt="Oliver Landscapes">
+                  </a>
+                  <li class="col-md-4 col-md-4 col-md-4">
+                  <a href="images/ross-garden.jpg" data-gallery>
+                  <img class="img-responsive" src="images/thumbnails/thumb-2-0.jpg" alt="Oliver Landscapes">
+                  </a>-->
+
+                <li class="col-md-4 col-md-4 col-md-4">
                     <a href="images/field.jpg" data-gallery>
                     <img class="img-responsive" src="images/field.jpg" alt="Oliver Landscapes">
-                </a>-->
+                </a>
                 <li class="col-md-4 col-md-4 col-md-4">
                 <a href="images/entry.jpg" data-gallery>
                     <img class="img-responsive" src="images/entry.jpg" alt="Oliver Landscapes">
@@ -350,27 +364,25 @@ document.getElementById('links').onclick = function (event) {
                     <form id="sweetsubmit" action="https://formspree.io/berytoliver@gmail.com" method="POST">        
                     
                     <p class="name"> 
-                      <label for="name"><h4>Name</h4></label>
-                      <input type="name" autocapitalize="off" autocorrect="off" size="25" value="" required/>      
-                    </p>                      
+                      <label for="Name"><h4>Name</h4></label>
+                      <input type="Name" autocapitalize="off" autocorrect="off" size="25" value="" required/>      
+                      </p>                      
                     <p class="email"> 
-                      <label for="EMAIL"><h4>Email Address</h4></label>
-                      <input type="email" autocapitalize="off" autocorrect="off" name="email" id="email" size="25" value="" required/>      
-                    </p> 
+                      <label for="Email"><h4>Email Address</h4></label>
+                      <input type="Email" autocapitalize="off" autocorrect="off" name="email" id="email" size="25" value="" required/>      
+                      </p> 
                     <p class="message"> 
-                      <label for="MESSAGE"><h4>Message</h4></label>             
-                      <TEXTAREA NAME="Message" ROWS=4 COLS=30 value="" required>
+                      <label for="Message"><h4>Message</h4></label>             
+                      <TEXTAREA NAME="Message" ROWS="4" COLS="30" value="" required>
                       </TEXTAREA>
                       <input type="text" name="_gotcha" style="display:none">
-                    </p> 
-                    </br>
+                      </p> 
+                      </br>
                     <p class="submit-button"> 
                       <input type="submit" value="SUBMIT">
                       <input type="hidden" name="_next" value="http://aggregatespace.com/redux/index.html" /> 
-                    </p> 
-                      </form>
-
- 
+                      </p> 
+                       </form> 
                          </div><!-- /.contactmain -->
                           </div><!-- /.page-wrap -->
       
@@ -382,7 +394,7 @@ document.getElementById('links').onclick = function (event) {
 <hr class="featurette-divider">
 
  <!-- START FOOTER -->
-  <div class="container">
+  <div class="container" id="footer-content">
        <footer>
         <p class="credit">&copy Oliver Landscapes 2016</p>
         <p class="pull-right"><a href="#">Back to top</a></p>
@@ -394,7 +406,6 @@ document.getElementById('links').onclick = function (event) {
 
            <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
            <script src="node_modules/sweetalert/dist/sweetalert.min.js"></script> 
-           
             <script>
               $(document).ready(function(){
               $("#sweetsubmit").submit(function(){

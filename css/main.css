@@ -7,20 +7,21 @@ html {
 }
 
 body {
-font-family: 'Lato', sans-serif;
+  font-family: 'Lato', sans-serif;
   margin: 0 auto;
-    padding: 0;
-    background: #ffffff;
-    -webkit-text-size-adjust: 100%;
-      -ms-text-size-adjust: 100%;
+  padding: 0;
+  background: #ffffff;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
 }
 
 .container h3 {
-    font-family: 'Lato', sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 .container p {
-    font-family: 'Lato', sans-serif;
+  font-family: 'Lato', sans-serif;
+  font-weight: bolder;
 }
 
 img {
@@ -32,8 +33,9 @@ a {
 }
 
 h3 {
-  color: #ccc;
+  color: #698B69 !important;
   font-size: 25px;
+  font-weight: bolder !important;
 }
 
 ul li a i {
@@ -82,7 +84,6 @@ NAVBAR
   padding-bottom:0px !important;
   margin-top: 15px;
   font-family: 'Lato', sans-serif!important;
-
 }
 
 .navbar-wrapper {
@@ -121,15 +122,15 @@ NAVBAR
 ABOUT SECTION 
 -----------------------------------------------------------------------------*/
 p { 
-  font-size: 16px; 
-  
+  font-size: 16px;  
 }
-#a6a6a6
+
 /*----------------------------------------------------------------------------- 
 PORTFOLIO SECTION
 -----------------------------------------------------------------------------*/
 .row img {
   padding-bottom: 7%;
+  min-height: 100%;
 }
 
 /*----------------------------------------------------------------------------- 
@@ -167,11 +168,16 @@ FOOTER - Social Media Links
 -----------------------------------------------------------------------------*/
 p.credit { 
   font-size: 11px; color: #7c7c7c;
-  width:50%; 
+  float:left;
+  text-align: left;
+  margin-top: 1%
 }
 
 .pull-right {
   font-size: 11px;
+  float:right;
+  text-align: right;
+  margin-top: 1%
 }
 
 /*-----------------------------------------------------------------------------
