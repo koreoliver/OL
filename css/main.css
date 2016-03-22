@@ -167,13 +167,19 @@ CENTER MODAL
 /*-----------------------------------------------------------------------------
 FOOTER - Social Media Links
 -----------------------------------------------------------------------------*/
+
 p.credit { 
   font-size: 11px; color: #7c7c7c;
-  width:50%; 
+  float:left;
+  text-align: left;
+  margin-top: 1%
 }
 
 .pull-right {
   font-size: 11px;
+  float:right;
+  text-align: right;
+  margin-top: 1%
 }
 
 /*-----------------------------------------------------------------------------
