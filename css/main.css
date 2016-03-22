@@ -34,8 +34,10 @@ a {
 }
 
 h3 {
-  color: #ccc;
+  color: #698B69 !important;
   font-size: 25px;
+  font-weight: bolder !important;
+
 }
 
 ul li a i {
@@ -131,6 +133,7 @@ PORTFOLIO SECTION
 -----------------------------------------------------------------------------*/
 .row img {
   padding-bottom: 7%;
+  min-height: 100%;
 }
 
 /*----------------------------------------------------------------------------- 
