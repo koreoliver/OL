@@ -21,7 +21,6 @@ font-family: 'Lato', sans-serif;
 
 .container p {
     font-family: 'Lato', sans-serif;
-    font-weight: bolder;
 }
 
 img {
@@ -30,7 +29,6 @@ img {
 
 a {
   color: #222;
-  font-weight: bolder;
 }
 
 h3 {
