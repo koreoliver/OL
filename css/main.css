@@ -125,11 +125,33 @@ p {
   font-size: 16px;  
 }
 
-h5 { 
-  font-size: 10px !important; 
+/*-----------------------------------------------------------------------------
+b {
+  font-size: 13px !important; 
   color: black !important; 
   padding-right: 100px;
   padding-left: 100px;
+  font-family: 'Lato', sans-serif !important;
+}
+
+li {
+  font-size: 13px !important; 
+  color: black !important; 
+  padding-right: 100px;
+  padding-left: 100px;
+  font-family: 'Lato', sans-serif !important;
+}
+
+
+/*-----------------------------------------------------------------------------
+QUOTE SECTION 
+-----------------------------------------------------------------------------*/
+h5 { 
+  font-size: 13px !important; 
+  color: black !important; 
+  padding-right: 100px;
+  padding-left: 100px;
+  font-family: 'Lato', sans-serif !important;
 }
 
 
