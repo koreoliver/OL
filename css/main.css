@@ -139,14 +139,21 @@ b {
   font-family: 'Lato', sans-serif !important;
 }
 
-h6{
-  
+/*-----------------------------------------------------------------------------
+SERVICES LIST
+-----------------------------------------------------------------------------*/
+li h5 { 
+  font-size: 12px !important; 
+  color: black !important; 
+  padding-right: 15%;
+  padding-left: 7%;
+  font-family: 'Lato', sans-serif !important;
 }
 
 /*-----------------------------------------------------------------------------
 QUOTE SECTION 
 -----------------------------------------------------------------------------*/
-h5 { 
+ h5 { 
   font-size: 14px !important; 
   color: black !important; 
   padding-right: 15%;
