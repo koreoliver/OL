@@ -35,7 +35,7 @@ a {
 h3 {
   color: #698B69 !important;
   font-size: 25px;
-  font-weight: bolder !important;
+  /*font-weight: bolder !important;*/
 }
 
 ul li a i {
