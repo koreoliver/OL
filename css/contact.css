@@ -23,9 +23,9 @@ CONTACT FORM IMAGE
   position:absolute;   
   width: 100%;
   height: 100%;
-  opacity: 0.9;
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
+  opacity: 0.8;
+  -webkit-filter:grayscale(65%);
+  filter: grayscale(65%);
 }
 
 .page-wrap { 
