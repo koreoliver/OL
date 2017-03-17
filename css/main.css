@@ -33,9 +33,10 @@ a {
 }
 
 h3 {
-  color: #698B69 !important;
+  color: #646864 !important;
   font-size: 25px;
-  /*font-weight: bolder !important;*/
+  /*font-weight: bolder !important;
+  color: #698B69 !important;*/
 }
 
 ul li a i {
@@ -76,7 +77,7 @@ NAVBAR
 .navbar-brand {
   font-size: 35px !important;
   font-family: 'Open Sans Condensed', sans-serif!important;
-  font:green!important;
+  font:gray!important;
   letter-spacing: 1.5px;
 }
 
