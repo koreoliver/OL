@@ -136,7 +136,7 @@ p {
 }
 
 .about-title {
-  padding-left: 1.5%;
+  padding-left: 1.%;
 }
 
 .about-section {
@@ -145,7 +145,7 @@ p {
 /*-----------------------------------------------------------------------------
 SERVICES LIST
 -----------------------------------------------------------------------------*/
-li h5 { 
+li h6 { 
   font-size: 12px !important; 
   color: black !important; 
   padding-right: 15%;
@@ -159,8 +159,8 @@ QUOTE SECTION
  h5 { 
   font-size: 14px !important; 
   color: black !important; 
-  padding-right: 15%;
-  padding-left: 7%;
+  padding-right: 17%;
+  padding-left: 17%;
   font-family: 'Lato', sans-serif !important;
 }
 
