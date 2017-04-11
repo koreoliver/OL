@@ -33,9 +33,10 @@ a {
 }
 
 h3 {
-  color: #698B69 !important;
+  color: #646864 !important;
   font-size: 25px;
-  font-weight: bolder !important;
+  /*font-weight: bolder !important;
+  color: #698B69 !important;*/
 }
 
 ul li a i {
@@ -74,9 +75,10 @@ ul li img {
 NAVBAR
 -----------------------------------------------------------------------------*/
 .navbar-brand {
-  font-size: 28px !important;
+  font-size: 35px !important;
   font-family: 'Open Sans Condensed', sans-serif!important;
-   font:green!important;
+  font:gray!important;
+  letter-spacing: 1.5px;
 }
 
 .navbar-nav > li > a {
@@ -133,10 +135,17 @@ p {
   font-family: 'Lato', sans-serif !important;
 }
 
+.about-title {
+  padding-left: 1.5%;
+}
+
+.about-section {
+  padding-left: 3%;
+}
 /*-----------------------------------------------------------------------------
 SERVICES LIST
 -----------------------------------------------------------------------------*/
-li h5 { 
+li h6 { 
   font-size: 12px !important; 
   color: black !important; 
   padding-right: 15%;
@@ -150,8 +159,8 @@ QUOTE SECTION
  h5 { 
   font-size: 14px !important; 
   color: black !important; 
-  padding-right: 15%;
-  padding-left: 7%;
+  padding-right: 17%;
+  padding-left: 17%;
   font-family: 'Lato', sans-serif !important;
 }
 
@@ -163,6 +172,13 @@ PORTFOLIO SECTION
   padding-bottom: 7%;
   min-height: 100%;
 }
+
+/*----------------------------------------------------------------------------- 
+CENTER MODAL
+-----------------------------------------------------------------------------/*
+/*h1 {
+  color: #698B69;
+}/*
 
 /*----------------------------------------------------------------------------- 
 CENTER MODAL
